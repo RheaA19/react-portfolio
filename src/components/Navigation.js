@@ -9,6 +9,8 @@ function Navigation() {
         <li><Link to="/prelim">Prelim</Link></li>
         <li><Link to="/midterm">Midterm</Link></li>
         <li><Link to="/finals">Finals</Link></li>
+        <li><Link to="/about">About Me</Link></li>
+        <li><Link to="/skills">Skills</Link></li>
       </ul>
     </nav>
   );

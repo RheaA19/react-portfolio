@@ -147,4 +147,65 @@ footer {
   max-height: 90%;
   border-radius: 10px;
 }
+.intro {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+/* Skills */
+.skills-section {
+  margin: 30px 0;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: lightskyblue;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Personal Info */
+.personal-info {
+  margin: 30px 0;
+  font-size: 1.1rem;
+}
+
+.personal-info p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Buttons */
+.page-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
 
